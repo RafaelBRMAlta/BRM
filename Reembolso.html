@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement Request</title>
+    <link rel="stylesheet" href="Reembolso.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reimbursement Request</h1>
+        <form id="requestForm">
+            <label for="totalAmount">Total amount:</label>
+            <input type="text" id="totalAmount" name="totalAmount" required><br><br>
+
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate" required><br><br>
+
+            <label for="dailyRate">Daily Rate:</label>
+            <input type="text" id="dailyRate" name="dailyRate" required><br><br>
+
+            <label for="numberOfDays">Number of Days:</label>
+            <input type="number" id="numberOfDays" name="numberOfDays" required><br><br>
+
+            <label for="repairOrder">Repair Order:</label>
+            <input type="text" id="repairOrder" name="repairOrder" required><br><br>
+
+            <label for="bankStatement">Bank Statement:</label>
+            <input type="text" id="bankStatement" name="bankStatement" required><br><br>
+
+            <label for="rentalAgreement">Rental Agreement:</label>
+            <input type="text" id="rentalAgreement" name="rentalAgreement" required><br><br>
+
+            <label for="reason">Reason:</label>
+            <input type="text" id="reason" name="reason" required><br><br>
+
+            <label for="justification">Justification:</label>
+            <input type="text" id="justification" name="justification" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="templateResult" class="template-result"></div>
+    </div>
+    <script src="Reembolso.js"></script>
+</body>
+</html>
